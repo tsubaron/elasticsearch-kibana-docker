@@ -1,5 +1,6 @@
 # elasticsearch-kibana-docker
 Install docker and docker-compose in reference to below url.
+
     docker
     https://docs.docker.com/engine/installation/linux/centos/#os-requirements
     docker-compose
@@ -22,8 +23,12 @@ You can visit below url.
     http://localhost:5601/
 
 #Memo
+
 Problem
+
     max virtual memory areas vm.max_map_count [65530] likely too low, increase to at least [262144]
+
 Solution
+
     sudo sysctl -w vm.max_map_count=262144
     
